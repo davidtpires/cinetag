@@ -1,9 +1,9 @@
-import styles from './Rodape.module.css'
+import styles from './Rodape.module.css';
 
 function Rodape() {
     return (
         <footer className={styles.rodape}>
-            <h3>Desenvolvido por David T.</h3>
+            <h2>Desenvolvido por David T.</h2>
         </footer>
     )
 }
