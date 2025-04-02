@@ -1,10 +1,10 @@
 import Cabecalho from "components/Cabecalho";
 import Container from "components/Container";
-import Favoritos from "components/Favoritos";
+import Favoritos from "pages/Favoritos";
 import Rodape from "components/Rodape";
-import FavoritosProvider from "contextos/Favoritos";
 import Inicio from "pages/Inicio";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import FavoritosProvider from "contextos/Favoritos";
 
 function AppRoutes() {
     return (
